@@ -6,15 +6,14 @@ Aplicación que permite crear, modificar y eliminar documentos TlDraw
 
 - Node.js >= 18
 - pnpm / npm / yarn
-- Cuenta en Azure OpenAI (con claves de API activas)
 
 ## Instalación
 
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/Krethz/test-vidext.git
-cd test-vidext
+https://github.com/Krethz/technical-test-vidext.git
+cd technical-test-vidext
 ```
 
 ## Uso de la aplicación
