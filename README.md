@@ -7,13 +7,14 @@ Aplicación que permite crear, modificar y eliminar documentos TlDraw
 - Node.js >= 18
 - pnpm / npm / yarn
 
-## Instalación
+## Instalación y ejecución
 
 1. Clona el repositorio:
 
 ```bash
-https://github.com/Krethz/technical-test-vidext.git
+git clone https://github.com/Krethz/technical-test-vidext.git
 cd technical-test-vidext
+npm run dev
 ```
 
 ## Uso de la aplicación
@@ -33,7 +34,9 @@ Azure OpenAI
 
 ## Notas
 
-La feature de IA no he podido desarrollarla del todo
+Los archivos que guardan la info de los documentos se crean dentro del directorio "snapshots" en la raíz del proyecto.
+
+La feature de IA no la he podido desarrollarla del todo debido a diversos problemas con la integración de Azure.
 El archivo src/server/api/routers/describe.ts contiene la lógica principal de la IA.
 En el caso de que fuera funcional, habría que asegurarse de que las claves API estén activas y de tener cuota disponible.
 También se debe crear un deployment funcional.
