@@ -30,11 +30,11 @@ function DrawingEditorComponent({
     },
   });
 
-  const generateDescription = trpc.describe.useMutation({
-    onSuccess: (message) => {
-      console.log(message);
-    },
-  });
+  // const generateDescription = trpc.describe.useMutation({
+  //   onSuccess: (message) => {
+  //     console.log(message);
+  //   },
+  // });
 
   const CustomButton = () => {
     const editor = useEditor();
@@ -60,14 +60,15 @@ function DrawingEditorComponent({
   };
 
   const AiButton = () => {
-    const editor = useEditor();
+    // const editor = useEditor();
 
-    const handleClick = useCallback(() => {
-      if (!editor) return;
-      const snapshot = getSnapshot(editor.store);
-      const data = JSON.stringify(snapshot);
-      generateDescription.mutate({ store: snapshot });
-    }, [editor]);
+    // const handleClick = useCallback(() => {
+    //   if (!editor) return;
+    //   const snapshot = getSnapshot(editor.store);
+    //   const data = JSON.stringify(snapshot);
+    //   generateDescription.mutate({ store: snapshot });
+    // }, [editor]);
+
     return (
       <Button
         // onClick={handleClick}

@@ -81,9 +81,9 @@ export default function DrawingPage({
     });
   };
 
-  const handleGenerateDescription = ()=>{
-    generateDescription.mutate({store})
-  }
+  // const handleGenerateDescription = ()=>{
+  //   generateDescription.mutate({store})
+  // }
 
   const newNameModal = () => (
     <AlertDialog
