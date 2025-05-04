@@ -1,6 +1,6 @@
-# Vidext
+# Vidext prueba técnica
 
-Aplicación de demo que integra un editor visual con inteligencia artificial para describir dibujos generados con Tldraw. Utiliza Azure OpenAI como backend de IA.
+Aplicación que permite crear, modificar y eliminar documentos TlDraw
 
 ## Requisitos
 
