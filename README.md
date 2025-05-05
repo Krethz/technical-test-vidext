@@ -14,6 +14,7 @@ Aplicación que permite crear, modificar y eliminar documentos TlDraw
 ```bash
 git clone https://github.com/Krethz/technical-test-vidext.git
 cd technical-test-vidext
+npm install
 npm run dev
 ```
 
