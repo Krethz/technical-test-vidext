@@ -15,6 +15,12 @@ Aplicación que permite crear, modificar y eliminar documentos TlDraw
 git clone https://github.com/Krethz/technical-test-vidext.git
 cd technical-test-vidext
 npm install
+```
+Después crearemos en la raíz del proyecto el archivo .env en el cual necesitaremos especificar una variable de entorno llamada AZURE_AI_API_KEY para que la implementación de openai no de problemas.
+
+Lanzamos el proyecto:
+
+```bash
 npm run dev
 ```
 
