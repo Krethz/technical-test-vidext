@@ -16,7 +16,7 @@ git clone https://github.com/Krethz/technical-test-vidext.git
 cd technical-test-vidext
 npm install
 ```
-Después crearemos en la raíz del proyecto el archivo .env en el cual necesitaremos especificar una variable de entorno llamada AZURE_AI_API_KEY para que la implementación de openai no de problemas.
+Después crearemos en la raíz del proyecto el archivo .env en el cual necesitaremos especificar una variable de entorno llamada AZURE_AI_API_KEY=xxxx para que la implementación de openai no de problemas.
 
 Lanzamos el proyecto:
 
